@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: sunus.github.com
+title: Lei Sun
 ---
 
 {% for post in paginator.posts %}
