@@ -19,30 +19,22 @@
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/ymf5twc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-	
-	<!-- CSS concatenated and minified via ant build script-->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-4950473-1']);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
 </head>
 
 <body>
 
   <div id="container">
     <header>
-		<a href="/">Lei Sun: Think... &amp; Programming</a>
+		<p>Think... &amp; Programming</p>
     </header>
     <div id="main" role="main">
 		{{ content }}
-	</div>
+    </div>
+    <footer>
+		<!-- TODO: add search function here. -->
+		<p>Copyright © 2011 - Lei Sun - Powered by <a href="http://www.github.com/">Github</a> - Template from <a href="http://jamesmoss.co.uk/">James Moss</a></p>
+		
+    </footer>
   </div> <!--! end of #container -->
 
 

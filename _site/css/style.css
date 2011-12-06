@@ -10,7 +10,7 @@ audio:not([controls]) { display: none; }
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; font-size: 16px; line-height: 1.6; font-weight: 100; background: #f6f6f6;
 }
-body, button, input, select, textarea { font-family: sans-serif; color: #666; }
+body, button, input, select, textarea { font-family: sans-serif;}
 
 ::-moz-selection { background: #66A891; color: #fff; text-shadow: 1px 1px 0 #439D7E; }
 ::selection { background: #66A891; color: #fff; text-shadow: 1px 1px 0 #439D7E; }
@@ -119,21 +119,20 @@ article header, article footer {
 
 
 #container > header {
-	background: url(../images/header-bg.png) bottom left no-repeat;
-	height: 90px;
+	background: #666;
+	height: 100px;
 	position: relative;
-	margin-bottom: 45px;
+	border-radius: 10px
 }
-#container > header a {
-	background: url(../images/logo.png) top left no-repeat;
-	height: 50px;
-	width: 224px;
-	text-indent: -10000px;
-	display: block;
-	top: 17px;
-	left: 17px;
+
+#container > header p {
+	left: 25px;
 	position: absolute;
+	font-size: 32px;
+	color: white;
+	font-family: ff-enzo-web,sans-serif
 }
+
 #container > footer {
 	border-top: 1px solid #CCC;
 	clear: both;
@@ -150,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0 2px 0 white;
 }
 
-h1 { font-size: 36px; }
+h1 { font-size: 2em; }
 
 
 a {

@@ -1,0 +1,153 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>sunus.github.com</title>
+	<meta name="description" content="It is the blog of Lei Sun who need a place to put his thoughts on.">
+	<meta name="author" content="Lei Sun">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/monokai.css">
+	<!-- end CSS-->
+	
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	<script type="text/javascript" src="http://use.typekit.com/ymf5twc.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+		<p>Think... &amp; Programming</p>
+    </header>
+    <div id="main" role="main">
+		
+	<article>
+	<h1>Checkboxes in Chrome DevTools CSS inspector</h1>
+	<header>
+		<time>July 17, 2011</time>
+	</header>
+	<p>After being an avid Firefox fan for the past five years I’ve recently
+decided to switch to Google Chrome as my main browser for both
+development and general usage. It’s matured over the last few years to
+become a great browser; fast, light on resources and with a brilliant
+plugin system.</p>
+
+<p>When using Firefox, the Firebug extension has become an
+invaluable tool for debugging, diagnosing and investigating front end
+HTML, Javascript and CSS issues. Chrome has an equivalent feature built
+right into the browser and its great, except for one thing; The
+checkboxes used to toggle properties in the CSS inspector are the on
+wrong side. <!--more--></p>
+
+<h2>The problem</h2>
+
+<p>Here’s the CSS inspector in Firebug:</p>
+
+<p><img src="/images/old/uploads/2011/07/css-inspector-firebug.png" title="css-inspector-firebug" alt="image" /></p>
+
+<p>Notice how the
+button to toggle the CSS properties on and off is right next to the
+property name itself. This close proximity makes it easy for the brain
+to associate it to the height property. Now lets look at the equivalent
+feature in Chrome developer tools:</p>
+
+<p><img src="/images/old/uploads/2011/07/css-inspector-chrome.png" alt="image2" /></p>
+
+<p>The button to toggle
+the property is now a tiny checkbox placed way out on the right hand
+side. The distance between the checkbox and the CSS property means that
+its difficult to work out which checkbox applies to which property.
+<a href="http://en.wikipedia.org/wiki/Fitts's_law" title="Fitts's Law">Paul Fitts</a> would be having a fit.</p>
+
+<h2>The fix</h2>
+
+<p>After 2 minutes of playing around I realised the DevTools in Chrome are
+actually plain old HTML, CSS and JavaScript. The CSS file is located at
+<code>chrome-devtools://devtools/devTools.css</code>, I didn’t want to find this
+file in the application package and directly edit it as my changes would
+get overwritten on each upgrade.</p>
+
+<p>I started looking into plugins such as
+<a href="https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe">Stylish</a> which let you inject custom CSS in any page you like.
+However Chrome plugins are only loaded in pages using <code>http://</code>, <code>https://</code>
+or <code>ftp://</code> protocols (and <code>file://</code>, if given permission by the user).
+Eventually I came across the <code>Custom.css</code> which is Chrome’s equivalent to
+Firefox’s <code>userContent.css</code>. <code>Custom.css</code> gets injected to all pages in
+Chrome, even the extension management page, user preferences and of
+course DevTools.</p>
+
+<h2>Updating Custom.CSS</h2>
+
+<p>On OS X you can find your <code>Custom.css</code> file in
+<code>~/Library/Google/Chrome/Default/User StyleSheets/</code>. If that folder is
+empty just create the file yourself. I don’t use Windows but I’m sure
+the file will be in a similar place. Place the following CSS in the file
+and save.</p>
+
+<script src="https://gist.github.com/1074366.js?file=Custom.css"></script>
+
+
+<p>That’s all there is to it. You don’t even need to restart Chrome.</p>
+
+<p>I’m not sure if this will ever get properly fixed. It’s been <a href="http://code.google.com/p/chromium/issues/detail?id=66628">raised as an
+issue</a> in the Chromium project but it’s been marked as an external
+dependancy issue within the WebKit engine. The WebKit team don’t seem to
+be in any hurry to fix it either, it’s been sitting as <a href="https://bugs.webkit.org/show_bug.cgi?id=37770">an issue in
+their bug tracker</a> for over a year with no real activity.</p>
+
+	<footer>
+	</footer>
+</article>
+
+
+
+
+
+<section class="pagination">
+
+
+	<a href="/" rel="prev">&laquo; Previous post</a>
+	
+	
+
+
+
+	<a href="/page3" rel="next">Next post &raquo;</a>
+
+
+</section>
+
+    </div>
+    <footer>
+		<!-- TODO: add search function here. -->
+		<p>Copyright © 2011 - Lei Sun - Powered by <a href="http://www.github.com/">Github</a> - Template from <a href="http://jamesmoss.co.uk/">James Moss</a></p>
+		
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="/js/plugins.js"></script>
+  <script defer src="/js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
