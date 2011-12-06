@@ -133,6 +133,24 @@ article header, article footer {
 	font-family: ff-enzo-web,sans-serif
 }
 
+#Search {
+    margin-left: 364px;
+    text-align: left;
+    padding: 6px 0px 0px 0px;
+}
+
+#q {
+    border: none;
+    width: 222px;
+    height: 26px;
+    margin: 1px 0px 1px 30px;
+    background-color: transparent;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+    font-size: 12px;
+    line-height: 20px;
+    outline: none;
+}
+
 #container > footer {
 	border-top: 1px solid #CCC;
 	clear: both;
