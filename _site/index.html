@@ -29,56 +29,6 @@
     </header>
     <div id="main" role="main">
 		
-	<article>
-	<h1>Blog redesign</h1>
-	<header>
-		<time>October 31, 2011</time>
-	</header>
-	<p>What you're looking at here is the new version of my blog. I've decided to pare back the design to make the content really stand out, focusing on clean typography (from <a href="https://typekit.com/">TypeKit</a>), vertical rhythm and minimalism. There's one full post per page (no read more links) and comments are only visible on the permalink pages.</p>
-
-<h2>Under the hood</h2>
-
-<p>The changes aren't purely cosmetic. I've been using WordPress for the last few years, and it's served me well, but I've become increasingly unhappy with how complex it makes writing blog posts. The process and distractions of logging in, messing around with the HTML in a WYSIWYG editor (it <em>always</em>  needs manual fixing) and publishing it puts up a barrier which stops me from blogging as much as I'd like to.</p>
-
-<h2>Jekyll</h2>
-
-<p>To that end I've been looking for something a lot simpler. I started looking into writing something lightweight with <a href="http://silex.sensiolabs.org/">Silex</a> but didn't have the time to build and test anything substantial.</p>
-
-<p>In the end I came across <a href="https://github.com/mojombo/jekyll">Jekyll</a>, written in Ruby, which is a "blog-aware, static site generator". You feed it some content and a HTML layout and it combines the two, generating the final flat pages to be served to your visitors.</p>
-
-<p>Content can be written in Markdown, Textile or plain ole' HTML. A snippet of <a href="https://github.com/mojombo/jekyll/wiki/yaml-front-matter">YAML Front Matter</a> at the top of each post can set metadata such as categories or tags. I've decided to use Markdown, it generates clean semantic HTML with the least amount of effort. A range of importers makes migrating content from another blogging platform super easy.</p>
-
-<p>I don't get to use Ruby as much as I'd like to so I'm hoping Jekyll will give me a chance to do some hacking, I've already thought of a few ideas for plugins.</p>
-
-<h2>Code highlighting</h2>
-
-<p>I want to start using this blog to post more code snippets and review other open source projects. I've enabled <a href="http://pygments.org/">Pygments</a> within Jekyll which automatically highlights my code snippets. I'm using the <a href="http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/">monokai</a> theme (as I do in my usual code editor) which contrasts well against the rest of the page:</p>
-
-<p>Liquid error: undefined method `join' for #&lt;String:0xb6778ce0></p>
-
-<p>Pygments is brilliant. It's got support for all the popular languages (and some less popular ones). I particularly like how I can display shell commands:</p>
-
-<p>Liquid error: undefined method `join' for #&lt;String:0xb6778970></p>
-
-<p>Finally I've added some <code>inline code styles</code> to make distinguishing them from the rest of the body text easier.</p>
-
-<h2>Hosting</h2>
-
-<p>The beauty of having flat HTML files is that you can host your site <a href="http://www.instructables.com/id/ServDuino-Arduino-Webserver/">literally</a> anywhere, there's no need to install and configure complex web servers (I'm looking at you Apache). Because of this I've decided to host the site with <a href="http://github.com/">GitHub</a>.</p>
-
-<p><a href="http://pages.github.com/">GitHub Pages</a> allows you to publish content to the web by simply pushing content to one of your hosted repos. It's also got support for Jeykll baked in (no surprise, <a href="https://github.com/mojombo">the author of Jeykll</a> is also a GitHub co-founder). It's free, which should cut my hosting costs every month, and leverages GitHub's scalability and reliability.</p>
-
-<h2>The Future</h2>
-
-<p>I particularly like the open-source nature of my new blog, you can see all <a href="https://github.com/jamesmoss/jamesmoss.github.com">my source code and commit history on GitHub</a>. This is just the start of more planned changes too, I've got a lot more work to do over the next few months to get the site to the point where I'm happy. I'm hoping this change to simpler blogging software will spur me to publish better content, a lot more often.</p>
-
-	<footer>
-	</footer>
-</article>
-
-
-
-
 
 <section class="pagination">
 
@@ -86,8 +36,6 @@
 	
 
 
-
-	<a href="/page2" rel="next">Next post &raquo;</a>
 
 
 </section>
