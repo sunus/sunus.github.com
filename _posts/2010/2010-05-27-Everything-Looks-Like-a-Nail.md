@@ -1,5 +1,5 @@
 ---
-title: If all you have is a hammer, everything looks like a nail.
+title: If all you have is a hammer, everything looks like a nail
 layout: post
 ---
 

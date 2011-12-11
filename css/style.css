@@ -189,6 +189,26 @@ p img {
 	border-radius: 2px;
 }
 
+#Links a{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	background: #666;
+	color: white !important;
+	border-radius: 10px;
+	min-width: 100px;
+	text-align: center;
+	margin: 5px 0 5px 5px;
+	font-size: 14px;
+}
+
+#Links a:hover {
+	text-decoration: none;
+	text-shadow: none;
+	background: #666;
+}
+
 .pagination a {
 	display: block;
 	padding: 0 20px;
