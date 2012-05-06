@@ -1,6 +1,11 @@
 ---
 title: 在Windows用cygwin编写JNI程序 - 1 (Using native code in Java）
 layout: post
+categories:
+- Tech
+tags:
+- CPP
+- Development
 ---
 
 搞了我一晚上，Faint 

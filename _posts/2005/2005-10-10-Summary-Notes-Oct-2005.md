@@ -1,6 +1,11 @@
 ---
 title: 杂记
 layout: post
+categories:
+- Notes
+tags:
+- Development
+- Monolog
 ---
 
 ## 编程术

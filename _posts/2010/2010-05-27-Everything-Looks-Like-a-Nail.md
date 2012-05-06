@@ -1,6 +1,10 @@
 ---
 title: If all you have is a hammer, everything looks like a nail
 layout: post
+categories:
+- Work
+tags:
+- Monolog
 ---
 
 >背景： 

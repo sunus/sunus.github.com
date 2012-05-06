@@ -1,6 +1,10 @@
 ---
 title: 纽摄笔记
 layout: post
+categories:
+- Note
+tags:
+- Photography
 ---
 
 基本原则 

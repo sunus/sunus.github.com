@@ -1,6 +1,12 @@
 ---
 title: Incomplete shortcuts of IDEA and Eclipse
 layout: post
+categories:
+- Tech
+tags:
+- IDEA
+- Eclipse
+- Development
 ---
 
 **Most Useful Ones**

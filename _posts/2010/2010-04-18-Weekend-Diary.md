@@ -1,6 +1,10 @@
 ---
 title: 周末记事
 layout: post
+categories:
+- Life
+tags:
+- Monolog
 ---
 
 1. 周五去百安居买了液体地板蜡，还有种菜的土。大白周末给地板打蜡，小白要种菜。 

@@ -1,6 +1,10 @@
 ---
 title: 以前的一些笔记
 layout: post
+categories:
+- Note
+tags:
+- Monolog
 ---
 
 ## About working

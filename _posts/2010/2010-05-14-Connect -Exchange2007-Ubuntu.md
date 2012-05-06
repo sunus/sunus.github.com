@@ -1,6 +1,11 @@
 ---
 title: Connect Exchange 2007 using Evolution under Ubuntu
 layout: post
+categories:
+- Tech
+tags:
+- Ubuntu
+- Exchange
 ---
 
 I did a lot of Google search before, but failed. Then today morning my collegue told me that he found a way to connect the exchange server under Ubuntu. Here are the steps. 

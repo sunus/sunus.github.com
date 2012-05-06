@@ -1,6 +1,11 @@
 ---
 title: 人月神话
 layout: post
+categories:
+- Notes
+tags:
+- Development
+- Management
 ---
 
 * 所有的编程人员都是乐观主义者 

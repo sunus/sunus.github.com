@@ -1,6 +1,11 @@
 ---
 title: Download the sources of android
 layout: post
+categories:
+- Tech
+tags:
+- Android
+- Git
 ---
 
 Well, you can follow the instructions [here](http://source.android.com/source/downloading.html) to download the whole repository of android. I did it yesterday. It took me about 10 - 12 hours to download all sources which are about 10G. Then I was wondering maybe a lot of people don’t need to download such a huge repository and then find the wayto do it as follows.

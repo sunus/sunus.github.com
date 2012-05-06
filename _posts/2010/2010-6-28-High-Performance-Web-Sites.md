@@ -1,6 +1,12 @@
 ---
 title: High Performance Web Sites
 layout: post
+categories:
+- Tech
+tags:
+- Web
+- Performance
+- Development
 ---
 
 [High Performance Web Sites](http://stevesouders.com/hpws/rules.php)

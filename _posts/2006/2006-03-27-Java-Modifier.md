@@ -1,6 +1,11 @@
 ---
 title: Java修饰符
 layout: post
+categories:
+- Tech
+tags:
+- JAVA
+- Development
 ---
 
 刚刚看appfuse的时候看到 private transient ServletContext servletContext; 发现transient这个单词不认识，汗…… 赶紧google，学习了一下，发现除了transient，Java还有几个不大常用的修饰符（至少我不大熟悉） 现学现卖，这里简单介绍一下 

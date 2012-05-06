@@ -1,6 +1,11 @@
 ---
 title: 近况
 layout: post
+categories:
+- Life
+tags:
+- Hangzhou
+- Monolog
 ---
 
 1. 新公司不能用IDEA是件比较郁闷的事情，Eclipse在重构上和IDEA还是有差距的，IDEA啥时候能不要钱呢？ 

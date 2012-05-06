@@ -1,6 +1,11 @@
 ---
 title: 利用SSH, Putty, FoxProxy完美翻Qiang指南（For Win）
 layout: post
+categories:
+- Tech
+tags:
+- SSH
+- GFW
 ---
 
 1. 得到一个SSH帐号。如果你购买了国外的虚拟主机或者VPS，一般都可以在控制面板开通SSH访问。如果没有，可以考虑在淘宝买一个。 

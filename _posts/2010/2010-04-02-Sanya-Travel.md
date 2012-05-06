@@ -1,6 +1,11 @@
 ---
 title: 三亚游记
 layout: post
+categories:
+- Fun
+tags:
+- Sanya
+- Travel
 ---
 
 <h2>总结</h2> 

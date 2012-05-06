@@ -1,6 +1,11 @@
 ---
 title: 用Eclipse CDT和Cygwin搭建Windows下C++开发环境
 layout: post
+categories:
+- Tech
+tags:
+- CPP
+- Development
 ---
 
 1. 下载Cygwin的在线[安装程序](http://www.cygwin.com/setup.exe), 安装过过程中选中gcc, g++, make. 

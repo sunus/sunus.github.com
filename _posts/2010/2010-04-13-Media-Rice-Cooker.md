@@ -1,6 +1,10 @@
 ---
 title: 美的电饭锅FS406
 layout: post
+categories:
+- Life
+tags:
+- Tips
 ---
 
 在网上看虎牌和松下的，几个忒巨。贪便宜买了个美的FS406。 

@@ -1,6 +1,11 @@
 ---
 title: Connect to Windows 7 from Ubuntu 11 using RDP
 layout: post
+categories:
+- Tech
+tags:
+- Ubuntu
+- RDP
 ---
 
 It seems that the RDP setting for Windows 7 by default will enable 'Network Level Authentication'. The out of box RDP tool Remote Desktop Viewer or Remmina Remote Desktop Client on Ubuntu does not support it. So to connect to the Windows 7, you have to change the RDP setting to disable the 'Network Level Authentication' like the following picture shows.

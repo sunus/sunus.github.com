@@ -1,6 +1,12 @@
 ---
 title: hg branch != git branch
 layout: post
+categories:
+- Tech
+tags:
+- Git
+- Mercurial
+- Development
 ---
 
 In Git, a branch is merely one of the many kinds of ‘refs’, and a ‘ref’ is simply a pointer to a commit. This means that there’s nothing fundamentally different between ‘bob/do-test’ or ‘tmp-do-test’, or ‘master’, they are all pointers to commits, and this pointers can be easily be deleted, renamed, fetched, pushed, etc. IOW you can do pretty much whatever you want with them.

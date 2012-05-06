@@ -1,6 +1,10 @@
 ---
 title: 纷乱的七月
 layout: post
+categories:
+- Life
+tags:
+- Monolog
 ---
 
 ## 七月大事记

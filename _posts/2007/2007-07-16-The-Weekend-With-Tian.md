@@ -1,6 +1,11 @@
 ---
 title: 周末杂记
 layout: post
+categories:
+- Life
+tags:
+- Hangzhou
+- Monolog
 ---
 
 ## 周六 

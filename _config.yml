@@ -1,7 +1,6 @@
-auto: true
-paginate: 1
 markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://sunus.github.com
+author: Alan Sun
 pygments: true
-permalink: /blog/:title
-rdiscount
-  extensions: [smart]
+paginate: 12
