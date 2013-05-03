@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://sunus.github.com
-author: Alan Sun
+url: http://sunus.github.io/
+author: Allen Sun
 pygments: true
 paginate: 12
