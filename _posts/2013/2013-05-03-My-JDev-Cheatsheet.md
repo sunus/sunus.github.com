@@ -15,7 +15,7 @@ tags:
 * Line Number: Preference -> Code Editor -> Line Gutter -> Show Line Numbers
 * Whitespace: Preference -> Code Editor -> Display -> Show Whitespace Characters
 
-## JDeveloper 11g Cheatsheet with Customized Key Mapping 
+## JDeveloper 11g Cheatsheet with Customized Key Mapping
 
 ### Edit
 	Ctrl + Shift + C					// Copy Path
@@ -107,6 +107,7 @@ tags:
 	Ctrl + Shift + U (customize)		// Convert Selections to Upper Case
 	Ctrl + Alt + D (customize)			// Delete Current Line
 
+[^note-id]: [JDev Keyboard Scheme File](/files/posts/AllenJDevKeyMapping.xml) 
 
 
 
