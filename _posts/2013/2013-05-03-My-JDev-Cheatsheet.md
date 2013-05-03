@@ -7,7 +7,7 @@ tags:
 - IDE
 ---
 
-## Font & Font Size Test
+## Font & Font Size
 * Font: Preference -> Code Editor -> Fonts -> Font Name -> Source Code Pro
 * Font Size: Preference -> Code Editor -> Fonts -> Font Size -> 14
 
@@ -15,7 +15,9 @@ tags:
 * Line Number: Preference -> Code Editor -> Line Gutter -> Show Line Numbers
 * Whitespace: Preference -> Code Editor -> Display -> Show Whitespace Characters
 
-## JDeveloper 11g Cheatsheet with Customized Key Mapping
+## JDeveloper 11g Cheatsheet with Customized Key Mapping 
+
+[JDev Keyboard Scheme File](http://sunus.github.io/files/posts/AllenJDevKeyMapping.xml) 
 
 ### Edit
 	Ctrl + Shift + C					// Copy Path
@@ -107,7 +109,7 @@ tags:
 	Ctrl + Shift + U (customize)		// Convert Selections to Upper Case
 	Ctrl + Alt + D (customize)			// Delete Current Line
 
-[^note-id]: [JDev Keyboard Scheme File](/files/posts/AllenJDevKeyMapping.xml) 
+[^note-id]: [JDev Keyboard Scheme File](http://sunus.github.io/files/posts/AllenJDevKeyMapping.xml) 
 
 
 
