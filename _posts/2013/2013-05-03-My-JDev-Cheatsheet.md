@@ -7,7 +7,7 @@ tags:
 - IDE
 ---
 
-## Font & Font Size
+## Font & Font Size Test
 * Font: Preference -> Code Editor -> Fonts -> Font Name -> Source Code Pro
 * Font Size: Preference -> Code Editor -> Fonts -> Font Size -> 14
 
