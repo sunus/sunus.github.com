@@ -17,7 +17,7 @@ tags:
 
 ## JDeveloper 11g Cheatsheet with Customized Key Mapping 
 
-[JDev Keyboard Scheme File](AllenJDevKeyMapping.xml) 
+[JDev Keyboard Scheme File](/files/posts/AllenJDevKeyMapping.xml) 
 
 ### Edit
 	Ctrl + Shift + C					// Copy Path
